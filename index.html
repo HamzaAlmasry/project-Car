@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car HTML and CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    
+    <section class="Home-App">
+        <header>
+            <div class="contrenir">
+                <div class="header-contrenir">
+                    <div class="icon1">
+                        <h1 class="car"> Car </h1>
+                        <div class="image-icon-header">
+                                <img src="img/jeep.png" alt="">
+                        </div>
+                        <h1 id="car" class="span"> Mizuo! </h1>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li class="mizuo"> Car <span class="span"> Mizuo!</span> </li>
+                            <li><a class="active home" >home</a></li>
+                            <li><a class="cars" >cars</a>  </li>
+                            <li><a class="about" >about</a></li>
+                            <li><a class="parts" >parts</a></li>
+                            <li><a class="blog">our blog</a></li>
+                            <li><a class="teams">our team</a></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                        <div class="app-input">
+                            <input type="search" class="search-input" name="" id="input-search" placeholder="Search here...">
+                        </div>
+                    </div>
+                    <button class="nav-toggle">
+                        <!-- <i class="fa-solid fa-bars"></i> -->
+                        <i class="fa-sharp fa-solid fa-circle-left"></i>
+                        <i class="fa-solid fa-circle-right"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="Home-item">
+            <div class="contrenir">
+
+                <div class="Home-item-icon">
+                    <h1> Car </h1>
+                    <div class="image-icon-header">
+                            <img src="img/jeep.png" alt="">
+                    </div>
+                    <h1 id="carMizuo" class="span"> Mizuo! </h1>
+                </div>
+                
+                <div class="section-contrenir">
+                    <h1 id="by" >We have Everything <br> <span>your <span class="span">car</span> need</span> </h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis exercitationem consequuntur dolore cumque .</p>
+                    <button class="btn btn-sing" id="Singup">Sing up</button>
+                    <button class="btn btn-sing" id="SingIn">Sing in</button>
+                    <div class="icon">
+                        <a href="https://m.facebook.com/?locale=ar_AR&_rdr" target="-blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/" target="-blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="" target="-blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" target="-blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="CAR">
+                <img src="img/Cars-cliparts.jpg" alt="">
+            </div>
+            <div class="CAR1">
+                <img src="img/pngegg.png" alt="">
+            </div> -->
+        </div>
+
+
+
+
+        <div class="Sing-in-app">
+            <div class="Sing-in ">
+                <div class="image-sing imgTop">
+                    <img src="img/jeep.png" alt="">
+                </div>
+                <form action="">
+                    <h1>Sing <span class="span">in</span> </h1>
+                    <input class="input" type="email" id="email" placeholder="Email" required>
+                    <input class="input" type="password" placeholder="password" required>
+                    <p>farget your password <span class="span sp">click here</span></p>
+                    <button class="btn btn-login">login</button>
+                    <p>or login with</p>
+                </form>
+                    <button class="btn btn-lo" >Google</button>
+                    <button class="btn btn-lo" >facebook</button>
+                    <p>don't have an account <span class="span sp">create one</span></p>
+            </div>
+            <div class="close">
+                <!-- <i class="fa-solid fa-xmark" id="close"></i> -->
+                <img src="img/images (2).jpg" title="close" id="close" class="fa-xmark" alt="">
+            </div>
+        </div>
+
+        <div class="Sing-up-app">
+            <div class="Sing-up Sing-up-item">
+                <div class="image-sing img1Top">
+                    <img src="img/jeep.png" alt="">
+                </div>
+                <form action="">
+                        <h1>Sign <span class="span">Up</span></h1>
+                        <p>Please fill in this form to create an account.</p>
+                        <label><b>Email</b></label>
+                        <input class="input" type="text" placeholder="Enter Email"  required>
+                    
+                        <label><b>Password</b></label>
+                        <input class="input" type="password" placeholder="Enter Password"  required>
+                    
+                        <label><b>Repeat Password</b></label>
+                        <input class="input" type="password" placeholder="Repeat Password"  required>
+                        
+                        <label>  <input type="checkbox" checked="checked"> Remember me </label>
+                        
+                        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                        
+                        <div class="clearfix">
+                            <button id="Cancel" class="btn btn-lo">Cancel</button>
+                            <button class="btn btn-lo">Sign Up</button>
+                        </div>
+                </form>
+            </div>
+            <div class="close">
+                <!-- <i class="fa-solid fa-xmark" id="close"></i> -->
+                <img src="img/images (2).jpg" title="Close" id="close" class="fa-xmark" alt="">
+            </div>
+        </div>
+
+    </section>
+    
+    
+    <section id="product">
+            <div class="product">
+                <div class="product-ititle">
+                    <img  src="img/pngegg (1).png" alt="">
+                    <h1 class="product-h1"> New <span class="span"> Product </span>  </h1>
+                    <img src="img/pngegg (1).png" alt="">
+                </div>
+                <div class="contrenir">
+                <div class="flex">
+                    <div class="product-item">
+                        <div class="product-item-img">
+                            <img src="img/car6.jpg" alt="">
+                        </div>
+                        <div class="product-item-title">
+                        <h4>Dodge RAM 1500 <span class="span left">2000$</span> </h4>
+                        <p>hatchback</p>
+                        <div class="product-item-title-flex">
+                            <p>2021</p>
+                            <p>manual</p>
+                            <p>alr condition</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-item-img">
+                            <img src="img/car5.jpg" alt="">
+                        </div>
+                        <div class="product-item-title">
+                            <h4>Dodge RAM 1500 <span class="span left">2000$</span> </h4>
+                            <p>hatchback</p>
+                            <div class="product-item-title-flex">
+                                <p>2021</p>
+                                <p>manual</p>
+                                <p>alr condition</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-item-img">
+                            <img src="img/car4.jpg" alt="">
+                        </div>
+                        <div class="product-item-title">
+                            <h4>Dodge RAM 1500 <span class="span left">2000$</span> </h4>
+                            <p>hatchback</p>
+                            <div class="product-item-title-flex">
+                                <p>2021</p>
+                                <p>manual</p>
+                                <p>alr condition</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-item-img">
+                            <img src="img1/car1.jpg" alt="">
+                        </div>
+                        <div class="product-item-title">
+                            <h4>Dodge RAM 1500 <span class="span left">2000$</span> </h4>
+                            <p>hatchback</p>
+                            <div class="product-item-title-flex">
+                                <p>2021</p>
+                                <p>manual</p>
+                                <p>alr condition</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-item-img">
+                            <img src="img1/car3.jpg" alt="">
+                        </div>
+                        <div class="product-item-title">
+                            <h4>Dodge RAM 1500 <span class="span left">2000$</span> </h4>
+                            <p>hatchback</p>
+                            <div class="product-item-title-flex">
+                                <p>2021</p>
+                                <p>manual</p>
+                                <p>alr condition</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <div class="product-item-img">
+                            <img src="img1/car2.jpg" alt="">
+                        </div>
+                        <div class="product-item-title">
+                            <h4>Dodge RAM 1500 <span class="span left">2000$</span> </h4>
+                            <p>hatchback</p>
+                            <div class="product-item-title-flex">
+                                <p>2021</p>
+                                <p>manual</p>
+                                <p>alr condition</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section id="about">
+            <div class="About">
+                <div class="product-ititle">
+                    <img  src="img/pngegg (1).png" alt="">
+                    <h1 class="product-h1"> About <span class="span"> Us </span>  </h1>
+                    <img  src="img/pngegg (1).png" alt="">
+                </div>
+                <div class="contrenir">
+                    <div class="flex1">
+                        <div class="About-image">
+                            <img src="img/about.png" alt="">
+                        </div>
+                        <div class="About-title">
+                            <p>About Us</p>
+                            <h1>cheap Prices With <br> Quality Cars  </h1>
+                            <p> Lorem ipsum dolor,perferendis molestiae hic quae iure tenetur ea! Debitis, fugit nihil! Ipsam at . </p>
+                            <button class="btn btn-sing" id="">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <section>
+        <div class="App-item">
+                <div  class="flex">
+                    <div class="App-item-item">
+                        <div class="title-image">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <div class="title-text">
+                            <h1>150+</h1>
+                            <p>Branches</p>
+                        </div>
+                    </div>
+        
+                    <div class="App-item-item">
+                        <div class="title-image">
+                            <i class="fa-solid fa-car"></i> 
+                        </div>
+                        <div class="title-text">
+                            <h1>4770+</h1>
+                            <p>Cars Sold</p>
+                        </div>
+                    </div>
+        
+                    <div class="App-item-item">
+                        <div class="title-image">
+                            <i class="fa-solid fa-users"></i> 
+                        </div>
+                        <div class="title-text">
+                            <h1>320+</h1>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+        
+                    <div class="App-item-item">
+                        <div class="title-image">
+                            <i class="fa-solid fa-car"></i> 
+                        </div>
+                        <div class="title-text">
+                            <h1>1500+</h1>
+                            <p>News Cars</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- <div class="bazat"> 
+        <form  id="formi">
+            <input autocomplete="off" placeholder="userName" id="username" maxlength="10" required>
+            <input  type="number" placeholder="Number"  name="number" id="number"  required>
+            <input  type="file" id="file" class="file" required  multiple>
+            <button disabled type="submit" id="submit"  >Submit</button>
+        </form>
+
+        <div class="BoxAppzz" id="Box">
+            <div class="App-item-item h1 ">
+                <div class="title-image">
+                    <img src="img/car1.jpg" alt="">
+                </div>
+                <div class="title-text">
+                    <h1>1500+</h1>
+                    <p>News Cars</p>
+                </div>
+            </div>
+        </div>
+        </div> -->
+        
+    </section>
+
+    
+    <section id="parts" >
+            <div class="parts">
+                <div class="product-ititle">
+                    <img  src="img/pngegg (1).png" alt="">
+                    <h1 class="product-h1"> Parts  </h1>
+                    <img  src="img/pngegg (1).png" alt="">
+                </div>
+                <div class="contrenir">
+                    <div class="flex">
+                        <div class="parts-item">
+                            <div class="parts-image">
+                                <img src="img1/part1.png" alt="">
+                            </div>
+                            <div class="parts-title">
+                                <p>Auto Spare Parts</p>
+                                <p>$120.99</p>
+                                <div class="parts-title-flex">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p> (6 Revierws) </p>
+                                </div>
+                                <div class="parts-title-flex1">
+                                    <button class="btn btn-sing" id="">Learn More</button>
+                                    <p>View Details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="parts-item">
+                            <div class="parts-image">
+                                <img src="img1/part2.png" alt="">
+                            </div>
+                            <div class="parts-title">
+                                <p>Auto Spare Parts</p>
+                                <p>$120.99</p>
+                                <div class="parts-title-flex">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p> (6 Revierws) </p>
+                                </div>
+                                <div class="parts-title-flex1">
+                                    <button class="btn btn-sing" id="">Learn More</button>
+                                    <p>View Details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="parts-item">
+                            <div class="parts-image">
+                                <img src="img1/part3.png" alt="">
+                            </div>
+                            <div class="parts-title">
+                                <p>Auto Spare Parts</p>
+                                <p>$120.99</p>
+                                <div class="parts-title-flex">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p> (6 Revierws) </p>
+                                </div>
+                                <div class="parts-title-flex1">
+                                    <button class="btn btn-sing" id="">Learn More</button>
+                                    <p>View Details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="parts-item">
+                            <div class="parts-image">
+                                <img src="img1/part4.png" alt="">
+                            </div>
+                            <div class="parts-title">
+                                <p>Auto Spare Parts</p>
+                                <p>$120.99</p>
+                                <div class="parts-title-flex">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p> (6 Revierws) </p>
+                                </div>
+                                <div class="parts-title-flex1">
+                                    <button class="btn btn-sing" id="">Learn More</button>
+                                    <p>View Details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="parts-item">
+                            <div class="parts-image">
+                                <img src="img1/part5.png" alt="">
+                            </div>
+                            <div class="parts-title">
+                                <p>Auto Spare Parts</p>
+                                <p>$120.99</p>
+                                <div class="parts-title-flex">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p> (6 Revierws) </p>
+                                </div>
+                                <div class="parts-title-flex1">
+                                    <button class="btn btn-sing" id="">Learn More</button>
+                                    <p>View Details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="parts-item">
+                            <div class="parts-image">
+                                <img src="img1/part6.png" alt="">
+                            </div>
+                            <div class="parts-title">
+                                <p>Auto Spare Parts</p>
+                                <p>$120.99</p>
+                                <div class="parts-title-flex">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p> (6 Revierws) </p>
+                                </div>
+                                <div class="parts-title-flex1">
+                                    <button class="btn btn-sing" id="">Learn More</button>
+                                    <p>View Details</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+
+
+
+    <section id="Blog">
+        <div class="blogs">
+            <div class="product-ititle blog-pd">
+                    <img  src="img/pngegg (1).png" alt="">
+                    <h1 class="product-h1"> Our Blog <span class="span">content</span>  </h1>
+                    <img  src="img/pngegg (1).png" alt="">
+            </div>
+            <p class="blog-par">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, libero.</p>
+            <div class="contrenir">
+                <div class="contrenir-blog">
+                    <div class="contrenir-blog-item">
+                        <div class="image-blog-item">
+                            <img src="img1/car3.jpg" alt="">
+                        </div>
+                        <p>Feb 14 2021</p>
+                        <h1>How To Get Perfect Car At Low Price</h1>
+                        <div class="prac">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora eaque autem dicta odio assumenda.</p>
+                        </div>
+                        <div class="arrow-right">
+                            <p>Read More</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="contrenir-blog-item">
+                        <div class="image-blog-item">
+                            <img src="img1/car6.jpg" alt="">
+                        </div>
+                        <p>Feb 14 2021</p>
+                        <h1>How To Get Perfect Car At Low Price</h1>
+                        <div class="prac">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora eaque autem dicta odio assumenda.</p>
+                        </div>
+                        <div class="arrow-right">
+                            <p>Read More</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="contrenir-blog-item">
+                        <div class="image-blog-item">
+                            <img src="img1/car4.jpg" alt="">
+                        </div>
+                        <p>Feb 14 2021</p>
+                        <h1>How To Get Perfect Car At Low Price</h1>
+                        <div class="prac">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora eaque autem dicta odio assumenda.</p>
+                        </div>
+                        <div class="arrow-right">
+                            <p>Read More</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="team">
+        <div class="product-ititle blog-pd">
+            <img  src="img/pngegg (1).png" alt="">
+            <h1 class="product-h1"> Our  <span class="span">Team</span>  </h1>
+            <img  src="img/pngegg (1).png" alt="">
+        </div>
+    <div class="contrenir">
+        <div class="main">
+            <div class="profile-card">
+                <div class="img">
+                    <img src="img/rev1.jpg" alt="">
+                </div>
+                <div class="caption">
+                    <h1>Ahmed Samir</h1>
+                    <p>Full Stact Developer</p>
+                    <div class="link">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="img">
+                    <img src="img/rev3.jpg" alt="">
+                </div>
+                <div class="caption">
+                    <h1>JGhalia Ezzat</h1>
+                    <p>Full Stact Developer</p>
+                    <div class="link">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="img">
+                    <img src="img/rev2.jpg" alt="">
+                </div>
+                <div class="caption">
+                    <h1>Ahmed Hamdi</h1>
+                    <p>Full Stact Developer</p>
+                    <div class="link">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <div class="contrenir">
+            <div class="foot-contrenir">
+                <div class="foot-contrenir-title">
+                    <h1>Car<span>Mizuo</span></h1>
+                    <div class="icon">
+                        <a href="https://m.facebook.com/?locale=ar_AR&_rdr" target="-blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/" target="-blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="" target="-blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" target="-blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+        <div class="foot-Ul">
+            <ul>
+                <li>Page</li>
+                <li>Home</li>
+                <li>Cars</li>
+                <li>Parts</li>
+                <li>Sales</li>
+            </ul>
+        </div>
+        <div class="foot-Ul">
+            <ul>
+                <li>Legal</li>
+                <li>Privocy</li>
+                <li>Relund</li>
+                <li>Cookio Policy</li>
+            </ul>
+        </div>
+        <div class="foot-Ul">
+            <ul>
+                <li>Contact</li>
+                <li>United States</li>
+                <li>Japan</li>
+                <li>Germany</li>
+            </ul>
+        </div>
+
+        
+
+    </div>
+    <p>HAMZAEZZAT1042001@gmail.com</p>
+    </div>
+    </footer>
+
+    <script src="script/js.js"></script>
+    <script src="script/js1.js"></script>
+
+</body>
+</html>
